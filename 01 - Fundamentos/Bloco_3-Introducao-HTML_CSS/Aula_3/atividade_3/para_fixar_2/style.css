@@ -1,0 +1,10 @@
+div:hover{ border: 3px solid rgb(160, 213, 243);}
+
+#primaria{ background-color: blue;}
+#secundaria{ background-color: green;}
+#complementar{ background-color: red; font-size: larger;}
+#escura{ background-color: dimgray;}
+#clara{ background-color: lightgray; }
+
+h3{ color: white; font-family: Arial, Helvetica, sans-serif;}
+#impar{ font-style: italic; }
