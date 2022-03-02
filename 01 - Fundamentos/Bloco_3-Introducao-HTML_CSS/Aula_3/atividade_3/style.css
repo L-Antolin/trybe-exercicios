@@ -1,0 +1,4 @@
+h1, p { text-align: center;}
+li:hover{ background-color: azure; }
+li:active{ font-family: Arial, Helvetica, sans-serif;}
+ol,ul{ list-style: none; }
