@@ -70,7 +70,7 @@ else {
 
 //Exercício 6 - movimento de peças encontrado no link : https://www.chesshouse.com/pages/chess-rules 
 //e toLowerCase encontrado no link: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
-let piece = "Queen";
+/*let piece = "Queen";
 
 switch(piece.toLowerCase()) {
   case "king" : 
@@ -99,6 +99,29 @@ switch(piece.toLowerCase()) {
 
   default:
     console.log("Error, invalid piece!");
+}*/
 
+//Exercício 7
+let nota = 92;
+
+if( (nota > 100) || (nota < 0)) {
+  console.log("Erro");
 }
-
+else if(nota >= 90) {
+  console.log("A");
+}
+else if(nota >= 80) {
+  console.log("B");
+}
+else if(nota >= 70) {
+  console.log("C");
+}
+else if(nota >= 60) {
+  console.log("D");
+}
+else if(nota >= 50) {
+  console.log("E");
+}
+else if(nota < 50) {
+  console.log("F");
+}
