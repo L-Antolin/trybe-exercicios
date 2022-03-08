@@ -139,7 +139,7 @@ else {
 }*/
 
 //Exercício 9
-let a = 9;
+/*let a = 9;
 let b = 3;
 let c = 5;
 
@@ -148,4 +148,17 @@ if(a %2 != 0 || b %2 != 0 || c %2 != 0) {
 }
 else {
   console.log("false");
+}*/
+
+//Exercício 10
+let valorCusto = 8;
+let valorVenda = 20;
+let valorCustoTotal = valorCusto + valorCusto*0.2;
+let lucro = valorVenda - valorCustoTotal;
+
+if(valorCusto <=0 || valorVenda <=0) {
+  console.log("Erro");
+}
+else {
+  console.log(1000*lucro);
 }
