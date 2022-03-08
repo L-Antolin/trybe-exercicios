@@ -37,7 +37,7 @@ else {
 }*/
 
 //Exercício 4
-const x = -24;
+/*const x = -24;
 
 if(x > 0) {
   console.log("positive");
@@ -49,4 +49,21 @@ else if(x < 0) {
 
 else {
   console.log("zero");
+}*/
+
+//Exercício 5
+const anguloA = 30;
+const anguloB = 60;
+const anguloC = 90;
+
+if(anguloA < 0 || anguloB < 0 || anguloC < 0) {
+  console.log("Erro, ângulos inválidos.")
 }
+
+else if(anguloA+anguloB+anguloC == 180) {
+  console.log("true");
+}
+
+else {
+  console.log("false")
+} 
