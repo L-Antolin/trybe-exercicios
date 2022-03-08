@@ -20,7 +20,7 @@ else {
 }*/
 
 //Exercício 3
-let a = 2;
+/*let a = 2;
 let b = 4;
 let c = 3;
 
@@ -34,4 +34,19 @@ else if( (b > a) && (b > c)) {
 
 else {
   console.log(c);
+}*/
+
+//Exercício 4
+const x = -24;
+
+if(x > 0) {
+  console.log("positive");
+}
+
+else if(x < 0) {
+  console.log("negative");
+}
+
+else {
+  console.log("zero");
 }
