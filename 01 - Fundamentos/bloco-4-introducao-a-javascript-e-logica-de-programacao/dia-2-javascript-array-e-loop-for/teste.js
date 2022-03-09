@@ -10,9 +10,22 @@ for(let i = 0; i < numbers.length; i++) {
 console.log(soma); */
 
 //Exercício 3
+/* let media = 0;
+for(let i = 0; i < numbers.length; i++) {
+  media = media + numbers[i];
+}
+media = media/numbers.length;
+console.log(media); */
+
+//Exercício 4
 let media = 0;
 for(let i = 0; i < numbers.length; i++) {
   media = media + numbers[i];
 }
 media = media/numbers.length;
-console.log(media);
+if(media > 20) {
+  console.log("valor maior que 20");
+}
+else {
+  console.log("valor menor ou igual a 20");
+}
