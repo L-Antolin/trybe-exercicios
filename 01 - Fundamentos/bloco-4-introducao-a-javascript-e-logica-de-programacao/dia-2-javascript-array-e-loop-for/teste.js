@@ -3,8 +3,16 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 /* console.log(numbers); */
 
 //Exercício 2
-let soma = 0;
+/* let soma = 0;
 for(let i = 0; i < numbers.length; i++) {
   soma = soma + numbers[i];
 }
-console.log(soma);
+console.log(soma); */
+
+//Exercício 3
+let media = 0;
+for(let i = 0; i < numbers.length; i++) {
+  media = media + numbers[i];
+}
+media = media/numbers.length;
+console.log(media);
