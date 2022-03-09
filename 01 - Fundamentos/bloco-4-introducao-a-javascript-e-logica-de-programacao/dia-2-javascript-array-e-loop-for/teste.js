@@ -49,10 +49,17 @@ for(let i = 0; i < numbers.length; i++) {
 console.log(numerosImpares); */
 
 //Exercício 7
-let menorNumero = numbers[0];
+/* let menorNumero = numbers[0];
 for(let i = 1; i < numbers.length; i++){
   if(menorNumero > numbers[i]){
     menorNumero = numbers[i];
   }
 }
-console.log(menorNumero);
+console.log(menorNumero); */
+
+//Exercício 8
+let novo =[];
+for(let i = 1; i <= 25; i++) {
+  novo.push(i);
+}
+console.log(novo);
