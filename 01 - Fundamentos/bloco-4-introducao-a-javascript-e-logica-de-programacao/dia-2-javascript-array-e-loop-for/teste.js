@@ -31,10 +31,19 @@ else {
 } */
 
 //Exercício 5
-let maiorNumero = numbers[0];
+/* let maiorNumero = numbers[0];
 for(let i = 1; i < numbers.length; i++){
   if(maiorNumero < numbers[i]){
     maiorNumero = numbers[i];
   }
 }
-console.log(maiorNumero);
+console.log(maiorNumero); */
+
+//Exercício 6
+let numerosImpares = 0;
+for(let i = 0; i < numbers.length; i++) {
+  if(numbers[i] %2 != 0) {
+    numerosImpares ++;
+  }
+}
+console.log(numerosImpares);
