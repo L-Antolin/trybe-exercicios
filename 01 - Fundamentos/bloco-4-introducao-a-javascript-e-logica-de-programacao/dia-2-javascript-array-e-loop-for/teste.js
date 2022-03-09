@@ -18,7 +18,7 @@ media = media/numbers.length;
 console.log(media); */
 
 //Exercício 4
-let media = 0;
+/* let media = 0;
 for(let i = 0; i < numbers.length; i++) {
   media = media + numbers[i];
 }
@@ -28,4 +28,13 @@ if(media > 20) {
 }
 else {
   console.log("valor menor ou igual a 20");
+} */
+
+//Exercício 5
+let maiorNumero = numbers[0];
+for(let i = 1; i < numbers.length; i++){
+  if(maiorNumero < numbers[i]){
+    maiorNumero = numbers[i];
+  }
 }
+console.log(maiorNumero);
