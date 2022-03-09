@@ -58,8 +58,17 @@ for(let i = 1; i < numbers.length; i++){
 console.log(menorNumero); */
 
 //Exercício 8
+/* let novo =[];
+for(let i = 1; i <= 25; i++) {
+  novo.push(i);
+}
+console.log(novo); */
+
+//Exercício 9
 let novo =[];
 for(let i = 1; i <= 25; i++) {
   novo.push(i);
 }
-console.log(novo);
+for(let x of novo) {
+  console.log(x/2);
+}
