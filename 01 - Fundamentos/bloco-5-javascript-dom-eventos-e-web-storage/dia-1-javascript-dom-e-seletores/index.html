@@ -80,10 +80,16 @@
       
       //Exercício 5
       function alteraMaiusculo () {
-        document.getElementsByTagName('p')[2].style.textTransform = 'uppercase';
+        document.getElementsByTagName('section')[0].style.textTransform = 'uppercase';
       }
       alteraMaiusculo();
 
+      //Exercício 6
+      function exibirConteudo () {
+        console.log(document.getElementsByTagName('section')[0].innerText);
+      }
+      exibirConteudo();
+      
     </script>
   </body>
 </html>
