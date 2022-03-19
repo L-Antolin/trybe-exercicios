@@ -30,3 +30,25 @@ for (let index = 0; index < array.length; index +=1) {
   }
 }
 console.log(menorPalavra);
+
+// Atividade 4
+let num = 50;
+let numerosPrimos = [];
+let calculoBase = '';
+for (let i = 2; i <= num; i +=1) {
+  for (let index = 2; index <= i; index +=1) {
+    if (i % index === 0 && index < i) {
+      break;
+    } else if (index === i) {
+      numerosPrimos.push(i);
+    }
+  }
+}
+// console.log(numerosPrimos);
+let maiorPrimo = numerosPrimos[0];
+for (let j = 0; j < numerosPrimos.length; j +=1) {
+  if (maiorPrimo < numerosPrimos[j]) {
+    maiorPrimo = numerosPrimos[j];
+  }
+}
+console.log('O maior número primo de 0 a 50 é ' + maiorPrimo);
