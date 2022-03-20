@@ -99,7 +99,7 @@ function numeroMenor(inteiros) {
   };
   return posicaoMenor;
 };
-console.log(numeroMenor([2, 4, 6, 7, 10, 0, -3])); */
+console.log(numeroMenor([2, 4, 6, 7, 10, 0, -3]));
 
 // Atividade 4
 function nomes(palavras) {
@@ -111,10 +111,32 @@ function nomes(palavras) {
   };
   return guardaPalavra;
 };
-console.log(nomes(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
+console.log(nomes(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'])); */
 
 // Atividade 5
-
+function numerosRepetidos(repetido) {
+  let contaNum = [];
+  let auxiliar;
+  let posicaoMaior = 0;
+  // O primeiro e o segundo for lêem o array e o if compara os dois para ir guardando quantos há de cada numero na array contaNum
+  for (let i = 0; i < repetido.length; i += 1) {
+    auxiliar = 0;
+    for (let j = 0; j < repetido.length; j += 1) { 
+      if (repetido[i] === repetido[j]) {
+        auxiliar += 1;
+      };
+    };
+    contaNum.push(auxiliar);
+    };
+    // Esse for é para buscar o numero que mais se repetiu, e usei o conta num alinhado ao repetido para armazenar a informação e retornar o numero e não o indice
+    for (let i = 0; i < contaNum.length; i += 1) {
+      if (contaNum[i] > contaNum[posicaoMaior]) {
+        posicaoMaior = i;
+      };
+    };
+    return repetido[posicaoMaior];
+  };
+console.log(numerosRepetidos([2, 3, 2, 5, 8, 2, 3]));
 
 // Atividade 6
 
