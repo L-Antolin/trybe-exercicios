@@ -64,7 +64,7 @@ leitor.livrosFavoritos.push(
 console.log(leitor);
 
 // Atividade 8
-console.log(leitor.nome + ' tem ' +  leitor.livrosFavoritos.length + ' livros favoritos '); */
+console.log(leitor.nome + ' tem ' +  leitor.livrosFavoritos.length + ' livros favoritos ');
 
 // Parte II - Funções
 // Atividade 1
@@ -99,11 +99,22 @@ function numeroMenor(inteiros) {
   };
   return posicaoMenor;
 };
-console.log(numeroMenor([2, 4, 6, 7, 10, 0, -3]));
+console.log(numeroMenor([2, 4, 6, 7, 10, 0, -3])); */
 
 // Atividade 4
+function nomes(palavras) {
+  let guardaPalavra = palavras[0];
+  for (let i = 0; i < palavras.length; i += 1) {
+    if (guardaPalavra.length < palavras[i].length) {
+      guardaPalavra = palavras[i];
+    };
+  };
+  return guardaPalavra;
+};
+console.log(nomes(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
 
 // Atividade 5
+
 
 // Atividade 6
 
