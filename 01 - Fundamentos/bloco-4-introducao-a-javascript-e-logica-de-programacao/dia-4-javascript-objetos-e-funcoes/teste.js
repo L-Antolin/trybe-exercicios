@@ -1,5 +1,5 @@
 // Parte I - Objetos e For/In
-let info = {
+/* let info = {
   personagem: 'Margarida',
   origem: 'Pato Donald',
   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
@@ -64,4 +64,28 @@ leitor.livrosFavoritos.push(
 console.log(leitor);
 
 // Atividade 8
-console.log(leitor.nome + ' tem ' +  leitor.livrosFavoritos.length + ' livros favoritos ');
+console.log(leitor.nome + ' tem ' +  leitor.livrosFavoritos.length + ' livros favoritos '); */
+
+// Parte II - Funções
+// Atividade 1
+function palindromo(palavra) {
+  if (palavra === palavra.split('').reverse().join('')) {
+    return true;
+  } else {
+    return false;
+  }
+}
+console.log(palindromo('arara'));
+
+// Atividade 2
+
+// Atividade 3
+
+// Atividade 4
+
+// Atividade 5
+
+// Atividade 6
+
+// Atividade 7
+
