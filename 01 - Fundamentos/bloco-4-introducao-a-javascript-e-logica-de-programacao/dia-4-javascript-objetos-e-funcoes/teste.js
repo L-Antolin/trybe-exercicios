@@ -64,7 +64,7 @@ leitor.livrosFavoritos.push(
 console.log(leitor);
 
 // Atividade 8
-console.log(leitor.nome + ' tem ' +  leitor.livrosFavoritos.length + ' livros favoritos '); 
+console.log(leitor.nome + ' tem ' +  leitor.livrosFavoritos.length + ' livros favoritos '); */
 
 // Parte II - Funções
 // Atividade 1
@@ -75,7 +75,7 @@ function palindromo(palavra) {
     return false;
   }
 }
-console.log(palindromo('arara')); */
+console.log(palindromo('arara'));
 
 // Atividade 2
 function numeroMaior(inteiro) {
@@ -87,9 +87,19 @@ function numeroMaior(inteiro) {
   };
   return posicaoMaior;
 };
-console.log(numeroMaior([2, 3, 6, 7, 10, 1]));
+console.log(numeroMaior([2, 3, 6, 7, 10, 1])); 
 
 // Atividade 3
+function numeroMenor(inteiros) {
+  let posicaoMenor = 0;
+  for (let i = 0; i < inteiros.length; i += 1) {
+    if (inteiros[i] < inteiros[posicaoMenor]) {
+      posicaoMenor = i;
+    };
+  };
+  return posicaoMenor;
+};
+console.log(numeroMenor([2, 4, 6, 7, 10, 0, -3]));
 
 // Atividade 4
 
