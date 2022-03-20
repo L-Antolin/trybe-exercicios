@@ -1,5 +1,5 @@
 // Parte I - Objetos e For/In
-/*let info = {
+let info = {
   personagem: 'Margarida',
   origem: 'Pato Donald',
   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
@@ -35,7 +35,7 @@ for (concat in info, info2) {
   } else {
     console.log('Ambos são recorrentes');
   };
-}; */
+};
 
 // Atividade 6
 let leitor = {
@@ -51,7 +51,7 @@ let leitor = {
   ],
 };
 
-//console.log('O livro favorito de ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama ' + '\'' + leitor.livrosFavoritos[0].titulo + '\'.');
+console.log('O livro favorito de ' + leitor.nome + ' ' + leitor.sobrenome + ' se chama ' + '\'' + leitor.livrosFavoritos[0].titulo + '\'.');
 
 // Atividade 7
 leitor.livrosFavoritos.push(
