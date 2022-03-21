@@ -1,5 +1,5 @@
 // Parte I - Objetos e For/In
-/* let info = {
+ let info = {
   personagem: 'Margarida',
   origem: 'Pato Donald',
   nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
@@ -136,7 +136,7 @@ function numerosRepetidos(repetido) {
     };
     return repetido[posicaoMaior];
   };
-console.log(numerosRepetidos([2, 3, 2, 5, 8, 2, 3])); */
+console.log(numerosRepetidos([2, 3, 2, 5, 8, 2, 3]));
 
 // Atividade 6
 function somatorio(numeroNatural) {
@@ -146,8 +146,18 @@ function somatorio(numeroNatural) {
   };
   return guardaSoma;
 };
-console.log(somatorio(5));  
+console.log(somatorio(5));
 
 
 // Atividade 7
-
+function verificaFimdaPalavra(word, ending) {
+  let palavra = word.split('').reverse().join('');
+  let final = ending.split('').reverse().join('');
+  for (let i = 0; i < final.length; i += 1) {
+    if (palavra[i] !== final[i]) {
+      return false;
+    };
+  };
+  return true;
+};
+console.log(verificaFimdaPalavra('trybe', 'be'));
