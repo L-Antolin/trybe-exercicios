@@ -111,7 +111,7 @@ function nomes(palavras) {
   };
   return guardaPalavra;
 };
-console.log(nomes(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana'])); */
+console.log(nomes(['José', 'Lucas', 'Nádia', 'Fernanda', 'Cairo', 'Joana']));
 
 // Atividade 5
 function numerosRepetidos(repetido) {
@@ -136,9 +136,18 @@ function numerosRepetidos(repetido) {
     };
     return repetido[posicaoMaior];
   };
-console.log(numerosRepetidos([2, 3, 2, 5, 8, 2, 3]));
+console.log(numerosRepetidos([2, 3, 2, 5, 8, 2, 3])); */
 
 // Atividade 6
+function somatorio(numeroNatural) {
+  let guardaSoma = 0;
+  for (let i = numeroNatural; i >= 1; i -= 1) {
+      guardaSoma = guardaSoma + i;
+  };
+  return guardaSoma;
+};
+console.log(somatorio(5));  
+
 
 // Atividade 7
 
