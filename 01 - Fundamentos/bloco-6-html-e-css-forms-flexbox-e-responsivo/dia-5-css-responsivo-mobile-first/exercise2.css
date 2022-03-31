@@ -5,3 +5,102 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(209, 233, 253);
+  color: rgb(0, 78, 141);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header p {
+  font-size: x-large;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+header nav ul {
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header nav ul li {
+  text-decoration: none;
+  display: flex;
+}
+
+.container {
+  background-color: aliceblue;
+  padding: 10px;
+}
+
+h2 {
+  color: rgb(0, 78, 141);
+}
+
+.aside-one, .aside-two {
+  background-color: rgb(209, 233, 253);
+  border-radius: 5%;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.container .aside-one ul {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.container .aside-one ul li {
+  text-decoration: none;
+  display: flex;
+}
+
+.container .aside-two ul {
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.container .aside-two ul li {
+  text-decoration: none;
+  display: flex;
+}
+
+.main-content {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h1 {
+  color: rgb(0, 78, 141);
+}
+
+.container .main-content p {
+  text-align: justify;
+}
+
+footer {
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+h3 {
+  color: rgb(0, 78, 141);
+}
+
+footer p {
+  text-align: justify;
+}
