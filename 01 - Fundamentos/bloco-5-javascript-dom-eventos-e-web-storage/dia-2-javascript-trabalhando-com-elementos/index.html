@@ -19,7 +19,7 @@
       }
 
       .main-content .center-content {
-        background-color: red;
+        background-color: green;
         width: 50%;
         margin-left: auto;
         margin-right: auto;
@@ -47,7 +47,7 @@
         background-color: blue;
         width: 60%;
         margin-left: auto;
-        margin-right: 0;
+        margin-right: auto;
       }
 
       .main-content .description {
@@ -56,8 +56,47 @@
     </style>
   </head>
   <body>
+    <h1 class="title">Exercício 5.2 - JavaScript DOM</h1>
+    <main class="main-content">
+      <section class="center-content">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+          Inventore harum, quam doloremque, ipsum laborum aspernatur 
+          autem alias eius recusandae suscipit, sit exercitationem! 
+          Totam fugit, suscipit explicabo quas mollitia laudantium 
+          dolorum.Lorem ipsum dolor sit, amet consectetur adipisicing.
+          Inventore harum, quam doloremque, ipsum laborum aspernatur 
+          autem alias eius recusandae suscipit, sit exercitationem! 
+          Totam fugit, suscipit explicabo quas mollitia laudantium 
+          dolorum.Lorem ipsum dolor sit, amet consectetur adipisicing.
+        </p>
+      </section>
+      <section class="left-content">
+        <img src="https://picsum.photos/200" class="small-image">
+      </section>
+      <section class="right-content">
+        <ul>
+          <li>Um</li>
+          <li>Dois</li>
+          <li>Três</li>
+          <li>Quatro</li>
+          <li>Cinco</li>
+          <li>Seis</li>
+          <li>Sete</li>
+          <li>Oito</li>
+          <li>Nove</li>
+          <li>Dez</li>
+        </ul>
+      </section>
+      
+    </main>
     <script>
-      // COLOQUE SEU CÓDIGO AQUI
+      const fatherOne = document.querySelector('.main-content');
+      const childOne = document.querySelector('.left-content');
+      fatherOne.removeChild(childOne);
+      const childTwo = document.querySelector('.right-content').lastElementChild.lastElementChild;
+      childTwo.parentNode.removeChild(childTwo);
+      const childThree = document.querySelector('.right-content').lastElementChild.lastElementChild;
+      childThree.parentNode.removeChild(childThree);
     </script>
   </body>
 </html>
