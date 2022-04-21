@@ -28,16 +28,19 @@ const personalData = (fullName) => {
 recebendo como parâmetros o número apostado e uma função que checa se o número apostado é igual ao número sorteado.
 O retorno da sua HOF deve ser uma string (Ex: "Tente novamente" ou "Parabéns você ganhou"). */
 
-const prizeDraw = (randonNumber) => {
+/* const prizeDraw = () => {
   const prize = Math.floor(Math.random() * 5);
   return prize;
-};
-
+}; */
+const prizeDraw = (callback) => {
+  const prize = Math.floor(Math.random() * (5 + 1));
+  return callback = prize;
+}
 const randonNumber = () => {
-  if (prize === 4) {
+  if (prizeDraw(callback) === 4) {
     return 'Parabéns você ganhou';
   } 
   return 'Tente novamente';
 };
 
-console.log(prizeDraw(randonNumber));
+console.log(randonNumber(callback));
