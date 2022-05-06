@@ -1,0 +1,31 @@
+.body-class{
+  background-color: rgb(250, 250, 250);
+  margin: -10px;
+  padding: 0px;
+  width: 1366px;
+  height: 768px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header-class{
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.cont-class {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-class {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
